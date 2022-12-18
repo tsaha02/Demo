@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="Softy Pinko" />
+    <title>Softy Pinko</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: transparent;
+    }
+    #home {
+      height: 900px;
+      width: 100vw;
+      margin-bottom: 50px;
+    }
+    .background::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-image: linear-gradient(45deg, rgba(150, 150, 250, 0.42), green),
+        url(./wallpaperflare.com_wallpaper.jpg);
+      height: 720px;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.8;
+    }
+    .background {
+      margin: 0 auto;
+    }
+    .navbar {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      position: sticky;
+      left: 10%;
+      right: 10%;
+      background: white;
+      top: 20px;
+      border-top-left-radius: 25px;
+      border-bottom-left-radius: 25px;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+      width: 1000px;
+    }
+    .navbar::before {
+      content: "Softy Pinko";
+      position: absolute;
+      left: 30px;
+      font-weight: bolder;
+      font-size: 1.5rem;
+      color: orangered;
+      cursor: no-drop;
+    }
+    .navbar ul {
+      display: flex;
+      margin: 25px 10px;
+      list-style: none;
+      position: relative;
+      right: 40px;
+    }
+    .navbar ul li {
+      font-family: century;
+      font-size: 1rem;
+    }
+    .navbar ul li a {
+      padding: 10px;
+      text-decoration: none;
+      transition: all 0.1s ease-in;
+    }
+    .navbar ul li a:hover {
+      color: coral;
+      border-radius: 15px;
+    }
+    .heading1 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      top: 250px;
+      font-size: 2.5rem;
+      font-weight: 100;
+      color: white;
+      word-spacing: 3px;
+    }
+    .heading2 {
+      position: relative;
+      justify-content: center;
+      text-align: center;
+      top: 300px;
+      font-size: medium;
+      color: white;
+      word-spacing: 3px;
+      font-weight: lighter;
+      font-family: century;
+    }
+    .button1 {
+      display: flex;
+      padding: 18px;
+      background-color: rgb(235, 54, 84);
+      position: relative;
+      top: 350px;
+      border-radius: 24px;
+      border: 0 solid transparent;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .button1 a {
+      text-decoration: none;
+      color: white;
+    }
+    .box1 {
+      display: flex;
+      flex-direction: column;
+      height: 250px;
+      width: 320px;
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+      top: 650px;
+      left: 8%;
+      border-radius: 25px;
+      justify-content: center;
+      align-items: center;
+      border: 0.1px solid wheat;
+      text-align: center;
+      justify-items: auto;
+    }
+    .box2 {
+      display: flex;
+      flex-direction: column;
+      height: 250px;
+      width: 320px;
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+      top: 650px;
+      left: 37%;
+      border-radius: 25px;
+      justify-content: center;
+      align-items: center;
+      border: 0.1px solid wheat;
+      text-align: center;
+      justify-items: auto;
+    }
+    .box3 {
+      display: flex;
+      flex-direction: column;
+      height: 250px;
+      width: 320px;
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+      top: 650px;
+      left: 66%;
+      border-radius: 25px;
+      justify-content: center;
+      align-items: center;
+      border: 0.1px solid wheat;
+      text-align: center;
+      justify-items: auto;
+    }
+    .logo img {
+      height: 90px;
+      width: 90px;
+      border: 1px solid pink;
+      margin-bottom: 10px;
+      border-radius: 100%;
+    }
+    .one {
+      font-size: 1.5rem;
+      font-family: century;
+    }
+    .two {
+      font-family: century;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: small;
+      font-weight: lighter;
+    }
+
+    /* About Section */
+    .table tr td img {
+      height: 400px;
+      width: 400px;
+      border-radius: 100%;
+    }
+  </style>
+  <body>
+    <div id="home">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work Process</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Pricing Tables</a></li>
+          <li><a href="#">Blog Entries</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="background">
+        <p class="heading1">
+          We Provide The Best Strategy <br />
+          To Grow Up Your Business
+        </p>
+        <p class="heading2">
+          Softy Pinko is a professional Bootstrap 4.0 theme designed by Template
+          Mo
+          <br />
+          for your company at absolutely free of charge
+        </p>
+        <button class="button1"><a href="#">DISCOVER MORE</a></button>
+      </div>
+      <div class="box1">
+        <div class="logo">
+          <img
+            src="./—Pngtree—team group leadership business teamwork_4965208.png"
+            alt="group logo"
+          />
+        </div>
+        <p class="one">Modern Strategy</p>
+        <br />
+        <p class="two">
+          Customize anything in this template to fit your website needs
+        </p>
+      </div>
+      <div class="box2">
+        <div class="logo">
+          <img
+            src="./—Pngtree—team group leadership business teamwork_4965208.png"
+            alt="group logo"
+          />
+        </div>
+        <p class="one">Best Relationship</p>
+        <br />
+        <p class="two">Contact Us Immediately If You Have A Question In Mind</p>
+      </div>
+      <div class="box3">
+        <div class="logo">
+          <img
+            src="./—Pngtree—team group leadership business teamwork_4965208.png"
+            alt="group logo"
+          />
+        </div>
+        <p class="one">Ultimate marketing</p>
+        <br />
+        <p class="two">
+          You Just Need To Tell Your Friends About Our Free Templates
+        </p>
+      </div>
+    </div>
+    <div id="About">
+      <table class="table">
+        <tr>
+          <td>
+            <img
+              src="./—Pngtree—team group leadership business teamwork_4965208.png"
+              alt="jkfg"
+            />
+          </td>
+          <td>hdsfbjkbfkjseksjjkgnjn</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
